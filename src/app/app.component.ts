@@ -8,6 +8,7 @@ import { RecordStoreService } from './core/services/record-store.service';
 })
 export class AppComponent {
 
-  constructor(public recordStore: RecordStoreService){}
+  constructor(public recordStore: RecordStoreService) { }
+
   title = 'client';
 }
