@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatIconModule, MatInputModule, MatFormFieldModule } from '@angular/material';
-import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './components/search/search.component';
+import { CoreModule } from './core/core.module';
+import { RecordComponent } from './components/record/record.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent
+    SearchComponent,
+    RecordComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +23,9 @@ import { SearchComponent } from './search/search.component';
     MatToolbarModule,
     MatIconModule,
     MatInputModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    CoreModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
