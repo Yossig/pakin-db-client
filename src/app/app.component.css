@@ -1,0 +1,18 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.search-form {
+    width: 100%;
+    font-size: 0.75em;
+    padding-left: 1%;
+
+}
+
+.title {
+    margin-right: 5%;
+}
+
+.toolbar {
+    height: 9%;
+}
