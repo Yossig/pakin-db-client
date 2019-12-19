@@ -2,11 +2,9 @@
     flex: 1 1 auto;
 }
 
-.search-form {
+.search-component {
     width: 100%;
-    font-size: 0.75em;
     padding-left: 1%;
-
 }
 
 .title {
