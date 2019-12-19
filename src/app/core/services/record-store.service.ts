@@ -37,7 +37,56 @@ export class RecordStoreService {
                 date: new Date(),
                 recordLength: 30,
                 recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordLength: 30,
+                recordUrl: ""
             }
+            
         ]
 
         // todo: fetch data from server

@@ -1,6 +1,8 @@
-<mat-toolbar class="toolbar" color="primary">
+<mat-toolbar class="toolbar mat-elevation-z3" color="primary">
   <span class="title">Pakin-DB</span>
   <span class="spacer"></span>
   <app-search class="search-component"></app-search>
 </mat-toolbar>
-<app-record *ngFor="let record of recordStore.records$ | async;" [record]="record"></app-record>
+<div class="content">
+  <app-record *ngFor="let record of recordStore.records$ | async;" [record]="record"></app-record>
+</div>

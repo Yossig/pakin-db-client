@@ -12,5 +12,10 @@
 }
 
 .toolbar {
-    height: 9%;
+    
+    position: fixed
+}
+
+.content {
+    padding-top: 14%;
 }

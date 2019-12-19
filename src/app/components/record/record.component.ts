@@ -9,7 +9,7 @@ import { Record } from 'src/app/core/models/record.model';
 export class RecordComponent implements OnInit {
 
   @Input() record: Record;
-  
+
   constructor() { }
 
   ngOnInit() {
