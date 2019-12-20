@@ -17,9 +17,18 @@ export class RecordComponent implements OnInit {
 
   ngOnInit() {
     this.formattedDate = moment(this.record.date).format("DD MMM YYYY");
-    switch(this.record.author) {
+    switch (this.record.author) {
       case "Itamar Efrati": {
         this.avatar = "../../assets/profile-pictures/itamar.jpg"
+        break;
+      }
+      case "Dor Tamir": {
+        this.avatar = "../../assets/profile-pictures/dor.jpg"
+        break;
+      }
+      case "Nimrod Levy": {
+        this.avatar = "../../assets/profile-pictures/nimrod.jpg"
+        break;
       }
     }
   }
