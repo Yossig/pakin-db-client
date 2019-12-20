@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Record } from 'src/app/core/models/record.model';
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-record',
@@ -9,10 +10,11 @@ import { Record } from 'src/app/core/models/record.model';
 export class RecordComponent implements OnInit {
 
   @Input() record: Record;
-
-  constructor() { }
-
-  ngOnInit() {
+  formattedDate: any;
+  constructor() {
   }
 
+  ngOnInit() {
+    this.formattedDate = moment(this.record.date.toLocaleDateString()).format("DD MMM YYYY");
+  }
 }
