@@ -12,15 +12,15 @@ export class ApiService {
     return this.http.get(path, { params });
   }
 
- /* post(path: string, body: Object = {}): Observable<any> {
+  post(path: string, body: Object = {}): Observable<any> {
     return this.http.post(path, body);
   }
 
-  delete(path: string): Observable<any> {
+  /*delete(path: string): Observable<any> {
     return this.http.delete(path)
   }
 
   put(path: string, body: Object = {}): Observable<any> {
     return this.http.put(path, body);
-  }*/
+  } */
 }

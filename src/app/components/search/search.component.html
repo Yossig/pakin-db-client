@@ -1,4 +1,4 @@
 <mat-icon class="search-icon">search</mat-icon>
 <mat-form-field class="search-form">
-    <input matInput placeholder="Search...">
+    <input matInput placeholder="Search..." [(ngModel)]="this.searchInput" (ngModelChange)="this.searchInputUpdate.next($event)">
 </mat-form-field>

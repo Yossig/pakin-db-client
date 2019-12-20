@@ -9,6 +9,7 @@ import { SearchComponent } from './components/search/search.component';
 import { CoreModule } from './core/core.module';
 import { RecordComponent } from './components/record/record.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatFormFieldModule,
     MatButtonModule,
     MatSliderModule,
+    FormsModule,
     CoreModule,
     HttpClientModule
   ],
