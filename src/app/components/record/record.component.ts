@@ -11,10 +11,16 @@ export class RecordComponent implements OnInit {
 
   @Input() record: Record;
   formattedDate: any;
+  avatar: String;
   constructor() {
   }
 
   ngOnInit() {
     this.formattedDate = moment(this.record.date).format("DD MMM YYYY");
+    switch(this.record.author) {
+      case "Itamar Efrati": {
+        this.avatar = "../../assets/profile-pictures/itamar.jpg"
+      }
+    }
   }
 }
