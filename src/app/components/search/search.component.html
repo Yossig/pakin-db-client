@@ -1,4 +1,7 @@
 <mat-icon class="search-icon">search</mat-icon>
 <mat-form-field class="search-form">
     <input matInput placeholder="Search..." [(ngModel)]="this.searchInput" (ngModelChange)="this.searchInputUpdate.next($event)">
+    <button mat-button *ngIf="this.searchInput" matSuffix mat-icon-button aria-label="Clear" (click)="clearSearch()">
+        <mat-icon>close</mat-icon>
+      </button>
 </mat-form-field>

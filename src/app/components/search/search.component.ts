@@ -23,6 +23,11 @@ export class SearchComponent implements OnInit {
   ngOnInit() {
   }
 
+  clearSearch() {
+    this.searchInput = "";
+    this.searchInputUpdate.next(this.searchInput)
+  }
+
   async filter() {
     this.searchInput = this.searchInput.toLowerCase();
     this.recordStore.records = await this.apiService.post('api/record/filter', this.searchInput.split(' ').filter(keyword => {
