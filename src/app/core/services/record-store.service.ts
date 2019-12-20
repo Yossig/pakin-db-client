@@ -29,61 +29,141 @@ export class RecordStoreService {
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
                 recordUrl: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordLength: 30,
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
+                recordUrl: ""
+            },
+            {
+                author: "Itamar",
+                date: new Date(),
                 recordUrl: ""
             }
             
