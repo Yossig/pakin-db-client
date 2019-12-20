@@ -29,142 +29,142 @@ export class RecordStoreService {
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             },
             {
                 author: "Itamar",
                 date: new Date(),
-                recordUrl: ""
+                url: ""
             }
             
         ]
