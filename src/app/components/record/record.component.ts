@@ -15,6 +15,6 @@ export class RecordComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.formattedDate = moment(this.record.date.toLocaleDateString()).format("DD MMM YYYY");
+    this.formattedDate = moment(this.record.date).format("DD MMM YYYY");
   }
 }
