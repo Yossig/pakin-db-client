@@ -30,6 +30,18 @@ export class RecordComponent implements OnInit {
         this.avatar = "../../assets/profile-pictures/nimrod.jpg"
         break;
       }
+      case "Dekel Adler": {
+        this.avatar = "../../assets/profile-pictures/dekel.jpg"
+        break;
+      }
+      case "Eyal Pakin": {
+        this.avatar = "../../assets/profile-pictures/eyal.jpg"
+        break;
+      }
+      case "Yossi Gartner": {
+        this.avatar = "../../assets/profile-pictures/yossi.jpg"
+        break;
+      }
     }
   }
 }
